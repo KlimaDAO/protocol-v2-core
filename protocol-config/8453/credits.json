@@ -1,0 +1,122 @@
+{
+  "BCHAR": {
+    "PUR_527_2023": {
+      "address": "0x504d8bf40aa6c79baec11f421f179ccb0e469729",
+      "tokenId": 0
+    },
+    "PUR_718_2024": {
+      "address": "0xf20cb470acda661ab02de3b7be43894e2ade0b1c",
+      "tokenId": 0
+    }
+  },
+  "REGEN_CFC": {
+    "C02-003": {
+      "address": "0x3d1bf942619cb9fc71543721ef3d5496faf283b8",
+      "tokenId": 0
+    },
+    "C02-004": {
+      "address": "0xe6628083ab9a9ab235e80f63e7ecd810b54a71b8",
+      "tokenId": 0
+    },
+    "C02-006": {
+      "address": "0xb77a0be47a686c525a38fbb10c0d424929471d7d",
+      "tokenId": 0
+    }
+  },
+  "OAE": {
+    "CMARK_2_2024": {
+      "address": "0x7e73347d87fe9f00afbaafd19aa7f26dec72ffd5",
+      "tokenId": 0
+    }
+  },
+  "SOLAR_PV_INDIA": {
+    "UCR-80-2021": {
+      "address": "0xcc52d6f36296884c2fbe106fce26851a30cad886",
+      "tokenId": 0
+    },
+    "UCR-170-2021": {
+      "address": "0xd35ce097b124ad93d972a9c0f33b9503548f6210",
+      "tokenId": 0
+    },
+    "UCR-81-2021": {
+      "address": "0x5a39700436dc2f124fe04d963c46197bb212e482",
+      "tokenId": 0
+    },
+    "UCR-50-2021": {
+      "address": "0xf218acd83d1593e985e3ec7ed95306a04998dc18",
+      "tokenId": 0
+    },
+    "UCR-433-2023": {
+      "address": "0xfc978c0ae3e7ad8edc6655d9c38bd61f210cd8bf",
+      "tokenId": 0
+    },
+    "UCR-367-2022": {
+      "address": "0xf1965ac1c0c5bdfdbcb4f3942b2e96040c6f9be7",
+      "tokenId": 0
+    },
+    "UCR-420-2023": {
+      "address": "0x2037eca75ad1f6f7b28d8ed745c0e0954e383758",
+      "tokenId": 0
+    },
+    "UCR-356-2022": {
+      "address": "0x10772cdf6105d09fd8ab20996e5a4b9b59ba3907",
+      "tokenId": 0
+    },
+    "UCR-419-2023": {
+      "address": "0x9623e6c969dc54f1972eb8b311eb9ed4cebc5e3e",
+      "tokenId": 0
+    },
+    "UCR-285-2023": {
+      "address": "0x61f7b8bfb4c22620db3340d45682898bbd378ff7",
+      "tokenId": 0
+    },
+    "UCR-436-2023": {
+      "address": "0x49655fbcc66d0ea6c3d0029d60e6762563ae4b82",
+      "tokenId": 0
+    },
+    "UCR-438-2023": {
+      "address": "0xcb4d420fbcc9f4319495e4139af37d47becbd031",
+      "tokenId": 0
+    },
+    "UCR-437-2023": {
+      "address": "0xc532b6f31e4b75557badd24b189fc43663f1bcf4",
+      "tokenId": 0
+    }
+  },
+  "WIND_INDIA": {
+    "UCR-121-2022": {
+      "address": "0x8Ee9abB81De5901e1Bf7d065270c73C6CDe6a684",
+      "tokenId": 0
+    },
+    "UCR-341-2022": {
+      "address": "0x91c9c6ADBaEe59bC05CD2F0d687Bbb50AbEb515B",
+      "tokenId": 0
+    },
+    "UCR-150-2021": {
+      "address": "0x8528f4cD40b56e18dB7145A48b545Cb9FB85B293",
+      "tokenId": 0
+    },
+    "UCR-320-2022": {
+      "address": "0x3bF21F28262eFfF8E2d30be3818e3B88539D7CCB",
+      "tokenId": 0
+    },
+    "UCR-164-2022": {
+      "address": "0x270fF9B9C8B3D0403f14c7AB916c8721280fBBa3",
+      "tokenId": 0
+    },
+    "UCR-423-2022": {
+      "address": "0x625df8076e4bD6E4B6196A2A7Cb79fB3b19068EF",
+      "tokenId": 0
+    }
+  },
+  "AVOIDED_DEFORESTATION_2018_2026": {
+    "ECO-114-2018_4067623867": {
+      "address": "0x3446c6Ab697caE41447266CF8Fd88c21a1BcBd1B",
+      "tokenId": 4067623867
+    },
+    "ECO-114-2018_2383554144": {
+      "address": "0x3446c6Ab697caE41447266CF8Fd88c21a1BcBd1B",
+      "tokenId": 2383554144
+    }
+  }
+}

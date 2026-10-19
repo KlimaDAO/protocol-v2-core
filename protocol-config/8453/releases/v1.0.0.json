@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "chainId": 8453,
+  "actions": [
+    "051-upgrade-class-vaults",
+    "052-upgrade-aam",
+    "053-upgrade-reward-manager",
+    "054-upgrade-staking-manager"
+  ],
+  "deployments": [
+    {
+      "action": "051-upgrade-class-vaults",
+      "contract": "ClassVaultRegistrationUtilsLib",
+      "type": "CREATE2",
+      "address": "0x0B9319860cca574B2c6dC73Cec5C5229CC91e87D",
+      "txHash": "0xe1e150ab9a68a37d0fe5e8da094b26d4cb9d88950a760dfc702084a8a2b29c8e"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "contract": "CarbonClassVault",
+      "type": "CREATE",
+      "address": "0xf494c8953bf6B1DD3Cc2e1A851F2520046F0CD3c",
+      "txHash": "0x236f91ee21d95df8193bfbca63494ae9d79d7456ae80511cfbd7371613f3abd6"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "RateLimiterFacet",
+      "type": "CREATE",
+      "address": "0xFC344C08805B5474c54eAa69535c7097d3339Fa8",
+      "txHash": "0xe49fa276e5aa559cc4b468d6d3caf248dc3fd7e99e49fca097a299e673d5051a"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "QuoterRouterFacet",
+      "type": "CREATE",
+      "address": "0x5ce35A88306d5047A8968f14c35683C15249Cc66",
+      "txHash": "0xb75cab6ff73f525c9e2c1613d808a3ee82d409aed3f9819e3b7876f789817074"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "CarbonClassQuoter",
+      "type": "CREATE",
+      "address": "0x3002f0cAA26E80e0fb09a8bA9EC51E14dC8f2033",
+      "txHash": "0x94a7c148dcf285a25714da1338530690e93720a72bd70eadaf0f4a4c7f03bece"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "CarbonClassQuoter",
+      "type": "CREATE",
+      "address": "0x60a63e6a878CfC7Eca5C9b40D14F9A49334bb96f",
+      "txHash": "0x12d8ce2ad3004b0b87cfa74a7f3fabf7a7a19a99016e2aa1042e380522e41404"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "CarbonClassQuoter",
+      "type": "CREATE",
+      "address": "0xebA42dFa89E3c6b67A3a7E51355D437B2a8E7ae3",
+      "txHash": "0xd9393681d0292a006f0a63aee4588564224945a39f0e55b98e9ddeeef3208358"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "CarbonClassQuoter",
+      "type": "CREATE",
+      "address": "0xcc9d551C1ee78d7e532c1b1C51Ba7eb1Cd884C27",
+      "txHash": "0xe266cc17f91c9f62fe8e1d1bddb46a93986e5779902e21eb7301ab8d51630e82"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "CarbonClassQuoter",
+      "type": "CREATE",
+      "address": "0xeA5CDbB584ed2198B9ee0056D1Ba24e50e2166c4",
+      "txHash": "0x2bc9ba3d240cc0ee81ef40e8b0efcde9179f357827cb4e557dbd184e982debe5"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "contract": "CarbonClassQuoter",
+      "type": "CREATE",
+      "address": "0x101964d37BE88Ea81614d70B8b153cc3fA09AAF2",
+      "txHash": "0x51a4448cd20624dc3e44d0224e4ebd6c4388abeaa0ac919e97f91b5bd9ad239e"
+    },
+    {
+      "action": "053-upgrade-reward-manager",
+      "contract": "AeroLPUtilsLib",
+      "type": "CREATE2",
+      "address": "0x6C746D0e63c52a0cC06B32CeA00EB6d694E4a7Eb",
+      "txHash": "0x23bacbff0f923929ac875b0308540d5344988ab22c786392ec7d1cb9036dea11"
+    },
+    {
+      "action": "053-upgrade-reward-manager",
+      "contract": "RiskyYieldFacet",
+      "type": "CREATE",
+      "address": "0x474bC405Ba1e85B6b6B6D972666bf68CEcaF9824",
+      "txHash": "0x8a67733f75b5ca43175ad054e9da759b38a89620f49d46075740787a1a12131f"
+    },
+    {
+      "action": "053-upgrade-reward-manager",
+      "contract": "RollUpdateFacet",
+      "type": "CREATE",
+      "address": "0x6F743076bF028d3Ef0354d367322842a5A27D96c",
+      "txHash": "0xf18b87bd8cffe9fdab8204b5dffce0741341a2bfa657ec0218499bfae8c3f720"
+    },
+    {
+      "action": "054-upgrade-staking-manager",
+      "contract": "ZkMeUtilsLib",
+      "type": "CREATE2",
+      "address": "0xed7F62fa1b5fed484889182CD59c6054273ed0fA",
+      "txHash": "0x182765ff9b40bdbe84e84ca46c1a31d6e2809e3d890b51a45d350ba378475f5a"
+    },
+    {
+      "action": "054-upgrade-staking-manager",
+      "contract": "KvcmStakingFacet",
+      "type": "CREATE",
+      "address": "0xe77e812186C4bdB59228b2215356e847EF1E18EB",
+      "txHash": "0xbf8619b5b230aeefa7c4f2f0fbc17d7faba1fb77b9ab52219e78b36cb3837466"
+    },
+    {
+      "action": "054-upgrade-staking-manager",
+      "contract": "IncentivesRetirementFacet",
+      "type": "CREATE",
+      "address": "0x6773F250b8c948a7C4de9Bd2c5a8291A7Eb61c5B",
+      "txHash": "0x1c12e1b4279a817775471d18408670863282d86871344b29a43cbe0a90e22dc7"
+    },
+    {
+      "action": "054-upgrade-staking-manager",
+      "contract": "K2StakingFacet",
+      "type": "CREATE",
+      "address": "0xDAD986bF31C80deADDCD85eDD85E56a903F7aadA",
+      "txHash": "0x839465776fc29ae95b4ab6d554cbc7357cdb3cfda10a9e65261d88095c8a9927"
+    },
+    {
+      "action": "054-upgrade-staking-manager",
+      "contract": "KvcmLPStakingFacet",
+      "type": "CREATE",
+      "address": "0xeF408D072B7984033f276B58887dEcE3462803af",
+      "txHash": "0x7f6af183050e59fe1b00d2540db17057b65a9798983fb8490952363c09827cf1"
+    }
+  ],
+  "multisig": [
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "AccessManager grantRole CARBON_SYSTEM_ADMIN -> CarbonVaultFactory",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory registerImplementation v2",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory upgradeVault BCHAR",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory upgradeVault OAE",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory upgradeVault REGEN_CFC",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory upgradeVault SOLAR_PV_INDIA",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory upgradeVault WIND_INDIA",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "CarbonVaultFactory upgradeVault AVOIDED_DEFORESTATION_2018_2026",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "051-upgrade-class-vaults",
+      "label": "AccessManager revokeRole CARBON_SYSTEM_ADMIN <- CarbonVaultFactory",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM diamondCut (RateLimiter + QuoterRouter)",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM setClassMinEffectiveAllocation BCHAR",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM setClassMinEffectiveAllocation OAE",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM setClassMinEffectiveAllocation REGEN_CFC",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM setClassMinEffectiveAllocation SOLAR_PV_INDIA",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM setClassMinEffectiveAllocation WIND_INDIA",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM setClassMinEffectiveAllocation AVOIDED_DEFORESTATION_2018_2026",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM replaceQuoter BCHAR",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM replaceQuoter OAE",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM replaceQuoter REGEN_CFC",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM replaceQuoter SOLAR_PV_INDIA",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM replaceQuoter WIND_INDIA",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "052-upgrade-aam",
+      "label": "AAM replaceQuoter AVOIDED_DEFORESTATION_2018_2026",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "053-upgrade-reward-manager",
+      "label": "RewardManager diamondCut (RiskyYield + RollUpdate)",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    },
+    {
+      "action": "054-upgrade-staking-manager",
+      "label": "StakingManager diamondCut (KvcmStaking + IncentivesRetirement + K2Staking + KvcmLPStaking)",
+      "txHash": "0x313aa6ffe78908f2234028bb94246d9eb86aa8926cd1c4ab2ec64cc73fbf55f1"
+    }
+  ]
+}

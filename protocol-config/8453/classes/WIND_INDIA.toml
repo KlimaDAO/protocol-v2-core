@@ -1,0 +1,11 @@
+[8453]
+endpoint_url = "http://localhost:8545/"
+
+[8453.address]
+carbonClassVault = "0x0008f35758a4318942EcB5d5414116ce7B1Ede2d"
+classQuoter = "0xeA5CDbB584ed2198B9ee0056D1Ba24e50e2166c4"
+classQuoter_prev = "0x60F85ED1E11f980110d41818Fd1130fF36243cef"
+
+[8453.uint]
+minEffectiveKvcmAllocation = "20000000000000000000000"
+minEffectiveK2Allocation = "1000000000000000000"

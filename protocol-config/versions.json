@@ -1,0 +1,16 @@
+{
+  "protocol": "1.0.0",
+  "contracts": {
+    "AAM": "1.0.0",
+    "StakingManager": "1.0.0",
+    "RewardManager": "1.0.0",
+    "CarbonLedger": "1.0.0",
+    "CarbonVaultFactory": "1.0.0",
+    "CarbonClassVault": "1.0.0",
+    "MaturityManager": "1.0.0",
+    "KvcmLockNFT": "1.0.0",
+    "ProtocolSupplyOracle": "1.0.0",
+    "ProtocolMinter": "1.0.0",
+    "ProtocolRewardsEscrow": "1.0.0"
+  }
+}

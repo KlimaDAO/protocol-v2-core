@@ -1,0 +1,7 @@
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@prb/math/=lib/prb-math/src/
+forge-std/=lib/forge-std/src/
+libraries/=src/libraries/
+interfaces/=src/interfaces/
+
